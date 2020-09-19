@@ -3,8 +3,8 @@
 # This script sets up pulseaudio virtual devices
 # The following variables must be set to the names of your own microphone and speakers devices
 # You can find their names with the following commands :
-# pacmd list-sources
-# pacmd list-source-outputs
+# pacmd list-sources | grep alsa_input
+# pacmd list-source-outputs | grep alsa_output
 # Use pavucontrol to make tests for your setup and to make the runtime configuration
 # Route your audio source to soundflower1
 # Record your sound (videoconference) from soundflower2.monitor
