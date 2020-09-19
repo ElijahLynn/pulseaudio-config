@@ -9,8 +9,8 @@
 # Route your audio source to virtual1
 # Record your sound (videoconference) from virtual2.monitor
 
-MICROPHONE="alsa_input.pci-0000_00_1b.0.analog-stereo"
-SPEAKERS="alsa_output.pci-0000_00_1b.0.analog-stereo"
+MICROPHONE="alsa_input.usb-0b0e_Jabra_SPEAK_410_USB_501AA5A00C87x010900-00.mono-fallback"
+SPEAKERS="alsa_output.usb-Lenovo_ThinkPad_Thunderbolt_3_Dock_USB_Audio_000000000000-00.analog-stereo"
 
 
 # Create the null sinks
